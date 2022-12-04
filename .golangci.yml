@@ -1,0 +1,11 @@
+linters-settings:
+  custom:
+    cyclop:
+      path: cyclop.so
+      description: calculates cyclomatic complexity
+
+linters:
+  disable-all: true
+  enable:
+    - typecheck
+    - cyclop
