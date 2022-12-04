@@ -3,6 +3,8 @@ package main
 import (
 	"github.com/chawin-a/custom-linter/pkg/analyzer"
 	"golang.org/x/tools/go/analysis"
+
+	// "golang.org/x/tools/go/analysis/multichecker"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 
@@ -19,5 +21,6 @@ func (*analyzerPlugin) GetAnalyzers() []*analysis.Analyzer {
 var AnalyzerPlugin analyzerPlugin
 
 func main() {
+	// multichecker.Main(AnalyzerPlugin.GetAnalyzers()...)
 	singlechecker.Main(analyzer.NewAnalyzer())
 }
