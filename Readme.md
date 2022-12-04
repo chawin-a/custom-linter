@@ -1,4 +1,6 @@
-## Commands
+# Custom Linter
+
+## Build
 
 `go build -buildmode=plugin ./cmd/cyclop`
 
