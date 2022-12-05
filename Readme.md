@@ -24,3 +24,4 @@ All versions of libraries that overlap `golangci-lint` (including replaced libra
 - <https://tech.devoted.com/custom-linter-plugins-for-golangci-lint-cf56b9091491>
 - <https://play-with-go.dev/tools-as-dependencies_go119_en/>
 - <https://github.com/golangci/golangci-lint/discussions/2215>
+- <https://github.com/golang/tools/blob/b4639ccb830b1c9602f1c96eba624bbbe20650ea/go/analysis/doc/suggested_fixes.md>
