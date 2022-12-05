@@ -1,5 +1,11 @@
 # Custom Linter
 
+## TODO
+
+- [ ] (WIP) Detect input packages.
+- [ ] Fix suggestions in `VSCode`.
+- [ ] Update `README`
+
 ## Build
 
 `go build -buildmode=plugin ./cmd/cyclop`
