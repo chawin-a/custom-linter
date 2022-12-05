@@ -3,9 +3,13 @@ linters-settings:
     cyclop:
       path: cyclop.so
       description: calculates cyclomatic complexity
+    autoimports:
+      path: autoimports.so
+      description: autoimports
 
 linters:
   disable-all: true
   enable:
     - typecheck
     - cyclop
+    - autoimports
